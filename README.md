@@ -19,7 +19,7 @@
 ![音乐播放器界面](./images/music.png)
 ![播放列表界面](./images/playlist.png)
 ![电台播放界面](./images/station.png)
-![评书有声小说播放界面](./images/books.png)
+![评书有声小说播放界面](https://github.com/yzzyzz/qianqianrelease/blob/main/imgaes/books.png)
 
 ## 安装与使用
 
@@ -29,4 +29,4 @@
 
 ## 反馈与支持
 
-如果您有任何问题或建议，请通过 [GitHub Issues](https://github.com/your-repo/issues) 联系我们。
+如果您有任何问题或建议，请通过 [GitHub Issues](https://github.com/yzzyzz/qianqianrelease/issues) 联系我们。
