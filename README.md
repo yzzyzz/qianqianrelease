@@ -19,7 +19,7 @@
 ![音乐播放器界面](https://github.com/yzzyzz/qianqianrelease/blob/main/images/music.png)
 ![播放列表界面](https://github.com/yzzyzz/qianqianrelease/blob/main/images/playlist.png)
 ![电台播放界面](https://github.com/yzzyzz/qianqianrelease/blob/main/images/station.png)
-![评书有声小说播放界面](https://github.com/yzzyzz/qianqianrelease/blob/main/imgaes/books.png)
+![评书有声小说播放界面](https://github.com/yzzyzz/qianqianrelease/blob/main/images/books.png)
 
 ## 安装与使用
 
