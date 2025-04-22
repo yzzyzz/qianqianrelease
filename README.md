@@ -16,10 +16,10 @@
 
 以下是音乐播放器的界面截图：
 
-![音乐播放器界面](images/music.png)
-![播放列表界面](images/playlist.png)
-![电台播放界面](images/station.png)
-![评书有声小说播放界面](images/books.png)
+![音乐播放器界面](./images/music.png)
+![播放列表界面](./images/playlist.png)
+![电台播放界面](./images/station.png)
+![评书有声小说播放界面](./images/books.png)
 
 ## 安装与使用
 
