@@ -16,10 +16,11 @@
 
 以下是音乐播放器的界面截图：
 
-<img src="https://github.com/yzzyzz/qianqianrelease/blob/main/images/music.png" width="50%">
-<img src="https://github.com/yzzyzz/qianqianrelease/blob/main/images/playlist.png" width="50%">
-<img src="https://github.com/yzzyzz/qianqianrelease/blob/main/images/station.png" width="50%">
-<img src="https://github.com/yzzyzz/qianqianrelease/blob/main/images/books.png" width="50%">
+
+<img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/music.png" width="50%">
+<img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/playlist.png" width="50%">
+<img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/station.png" width="50%">
+<img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/books.png" width="50%">
 
 
 ## 安装与使用
