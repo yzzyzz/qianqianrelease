@@ -22,7 +22,6 @@
 <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/station.png" width="50%">
 <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/books.png" width="50%">
 
-
 ## 安装与使用
 
 1. 下载并安装音乐播放器。
