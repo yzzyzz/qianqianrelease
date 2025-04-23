@@ -19,27 +19,9 @@ CRI南海之声,http://sk.cri.cn/nhzs.m3u8,中央电台
 CRI轻松调频,http://sk.cri.cn/915.m3u8,中央电台
 CRI粤语国际,http://sk.cri.cn/hxfh.m3u8,中央电台
 世界华声,http://sk.cri.cn/hxfh.m3u8,中央电台
-正义电台,http://211.20.119.103:8081,境外电台
-太阳电台,http://211.20.119.102:8081,境外电台
-台北广播电台FM93.1,https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8,境外电台
-rfi,https://rfienchinois64k.ice.infomaniak.ch/rfienchinois-64.mp3,境外电台
-台中广播电台,http://211.20.119.101:8081,境外电台
-中广音乐网,http://stream.rcs.revma.com/ks4vsmg3qtzuv,境外电台
-中广新闻网,http://stream.rcs.revma.com/78fm9wyy2tzuv,境外电台
-中广流行网,http://stream.rcs.revma.com/aw9uqyxy2tzuv,境外电台
-正聲廣播電台FM104,https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/chunklist_w872521607.m3u8,境外电台
-News98新闻台,http://stream.rcs.revma.com/55tyxsy4qtzuv,境外电台
-飞碟电台,http://stream.rcs.revma.com/em90w4aeewzuv,境外电台
-宝岛联播网|宝岛新声,http://stream.superfm99-1.com.tw:8555,境外电台
-宝岛联播网|大千电台,http://stream.superfm99-1.com.tw:8554,境外电台
-国立教育电台,http://wowza.ner.gov.tw/live/_definst_/1/playlist.m3u8,境外电台
-台湾古典音乐台,http://59.120.88.155:8000/live.mp3,境外电台
-加拿大中文电台FM.96.1,https://5b2959fe11444.streamlock.net/radio/fm961.stream/playlist.m3u8,境外电台
 bloomber,https://playerservices.streamtheworld.com/api/livestream-redirect/WBBRDCAAC.aac,境外电台
 Bloomberg TV,http://tunein.streamguys1.com/BloombergTV,境外电台
 BBC World Service,http://stream.live.vc.bbcmedia.co.uk/bbc_world_service,境外电台
-新加坡1003UFM 100.3 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/UFM_1003AAC.aac,境外电台
-新加坡Capital 958 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FMAAC.aac,境外电台
 CNR-1 中国之声,http://ngcdn001.cnr.cn/live/zgzs/index.m3u8,我的最爱
 CNR-2 经济之声,http://ngcdn002.cnr.cn/live/jjzs/index.m3u8,我的最爱
 AsiaFM 亚洲经典台,http://goldfm.cn:8000/goldfm,我的最爱
@@ -53,7 +35,6 @@ CNR阅读之声,http://ngcdn014.cnr.cn/live/ylgb/index.m3u8,我的最爱
 监利电台Jianli National Radio,https://lhttp.qtfm.cn/live/15318507/64k.mp3,我的最爱
 第一财经 FM97.7,http://a1live.livecdn.yicai.com/live/radio_tv.m3u8,我的最爱
 安徽故事广播,http://satellitepull.cnr.cn/live/wxahxspsgb/playlist.m3u8,我的最爱
-步非烟asmr,https://stream.zeno.fm/95scbfwki6kuv,我的最爱
 CNR文艺之声,http://audiows010.cnr.cn/live/wyzs192/playlist.m3u8,文化曲艺
 CNR阅读之声,http://ngcdn014.cnr.cn/live/ylgb/index.m3u8,文化曲艺
 济南故事,https://lhttp-hw.qtfm.cn/live/20012/64k.mp3,文化曲艺
