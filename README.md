@@ -28,6 +28,10 @@
 2. 打开应用，导入您的音乐文件。
 3. 开始享受音乐吧！
 
+## 分流
+
+链接: https://pan.baidu.com/s/1sr38mtXPsPVDAI3TU0ReEQ?pwd=iawk 提取码: iawk
+
 ## 反馈与支持
 
 如果您有任何问题或建议，请通过 [GitHub Issues](https://github.com/yzzyzz/qianqianrelease/issues) 联系我们。
