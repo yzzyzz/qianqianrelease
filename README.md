@@ -27,7 +27,7 @@
 2. 打开应用，导入您的音乐文件。
 3. 开始享受音乐吧！
 4、电台csv：每行一个电台，每行的格式为："显示名称,url,分类"，比如
-[电台文件]（https://gitee.com/byronyz/qianqianplayer/raw/main/radio.csv）
+ [电台文件](https://gitee.com/byronyz/qianqianplayer/raw/main/radio.csv) 
 
 ## 分流
 
