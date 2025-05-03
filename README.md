@@ -25,13 +25,15 @@
 
 1. 下载并安装音乐播放器。
 2. 打开应用，导入您的音乐文件。
-3. 开始享受音乐吧！
-4、电台csv：每行一个电台，每行的格式为："显示名称,url,分类"，比如
+3. 开始享受音乐吧.
+4. 电台csv：每行一个电台，每行的格式为："显示名称,url,分类"，比如
  [电台文件](https://gitee.com/byronyz/qianqianplayer/raw/main/radio.csv) 
+5. 资源分享：
+电台：https://www.radio-browser.info/search?page=1&order=clickcount&reverse=true&hidebroken=true&language=chinese
 
-## 分流
+有声小说、评书、情景剧：https://www.yigushi.com/youshengxiaoshuo/
 
-链接: https://pan.baidu.com/s/1sr38mtXPsPVDAI3TU0ReEQ?pwd=iawk 提取码: iawk
+
 
 ## 反馈与支持
 
