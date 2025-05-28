@@ -16,7 +16,7 @@
 
 以下是音乐播放器的界面截图：
 
-| 音乐播放 | 播放列表 | 滚动歌词|
+| 音乐播放 | 自定义列表 | 滚动歌词|
 |---------|----------|----------|
 | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/music.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/playlist.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/liycs.png" width="400"> |
 
