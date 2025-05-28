@@ -17,12 +17,11 @@
 以下是音乐播放器的界面截图：
 
 | 音乐播放 | 播放列表 | 滚动歌词|
-|---------|----------|
+|---------|----------|----------|
 | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/music.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/playlist.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/liycs.png" width="400"> |
 
-
 | 电台播放 | 有声书籍 |播客|
-|---------|----------|
+|---------|----------|----------|
 | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/station.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/books.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/podcast.png" width="400"> |
 
 ## 🛠️ 安装与使用
