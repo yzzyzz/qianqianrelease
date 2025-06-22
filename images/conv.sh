@@ -96,3 +96,46 @@ convert "$bg" \
 
 # 清理临时文件
 rm temp_subimg1.png temp_subimg2.png temp_subimg3.png temp_subimgs.png
+
+
+subimg3="lrc.png"
+convert "$subimg3" \
+        -font "$font_path" \
+        -background none \
+        -fill white \
+        -pointsize "$font_size" \
+        -gravity south \
+        -annotate "+0+$text_offset" "桌面歌词" temp_subimg8.png
+
+# 定义输入文件和输出文件
+bg="bg1.png"
+temp_subimg8="temp_subimg8.png"
+lrc_mini="lrc_mini.png"
+lrc_jijian="lrc_jijian.png"
+lrc_std="lrc_std.png"
+output="final_output.png"
+
+# 将 temp_subimg8 居中放置在 bg 上
+convert "$bg" \
+        \( $temp_subimg8 -resize 92% \) \
+        -gravity center -geometry +0+10 \
+        -composite temp_center.png
+
+# 将 lrc_mini 放置在左上角
+convert "temp_center.png" \
+        "$lrc_std" \
+        -gravity northwest -composite temp_left_top.png
+
+# 将 lrc_jijian 放置在右上角
+convert "temp_left_top.png" \
+        "$lrc_mini" \
+        -gravity northeast -composite temp_right_top.png
+
+# 将 lrc_mini 放置在右下角
+convert "temp_right_top.png" \
+        "$lrc_jijian" \
+        -gravity southeast -composite "$output"
+
+# 清理临时文件
+rm temp_center.png temp_left_top.png temp_right_top.png
+
