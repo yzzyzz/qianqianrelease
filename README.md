@@ -18,7 +18,7 @@
 
 | 音乐播放 | 自定义列表 | 滚动歌词|
 |---------|----------|----------|
-| <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/music.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/playlist.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/liycs.png" width="400"> |
+| <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/music.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/playlist.png" width="400"> | <img src="https://gitee.com/byronyz/qianqianplayer/raw/main/images/lrc.png" width="400"> |
 
 | 电台播放 | 有声书籍 |播客|
 |---------|----------|----------|
