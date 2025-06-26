@@ -1,5 +1,5 @@
 #!/bin/bash
-convert bginit.png -resize 2880x1800^ -gravity center -crop 2880x1800+0+0 +repage bg1.png
+convert bginit3.png -resize 2880x1800^ -gravity center -crop 2880x1800+0+0 +repage bg1.png
 
 # 定义输入文件和输出文件
 bg="bg1.png"
@@ -46,7 +46,6 @@ convert "$bg" \
 
 # 清理临时文件
 rm temp_subimg1.png temp_subimg2.png temp_subimg3.png temp_subimgs.png
-
 
 
 
@@ -105,9 +104,10 @@ convert "$subimg3" \
         -fill white \
         -pointsize "$font_size" \
         -gravity south \
-        -annotate "+0+$text_offset" "桌面歌词" temp_subimg8.png
+        -annotate "+0+$text_offset" "桌面歌词-三大主题" temp_subimg8.png
 
 # 定义输入文件和输出文件
+
 bg="bg1.png"
 temp_subimg8="temp_subimg8.png"
 lrc_mini="lrc_mini.png"
@@ -139,3 +139,115 @@ convert "temp_right_top.png" \
 # 清理临时文件
 rm temp_center.png temp_left_top.png temp_right_top.png
 
+
+#!/bin/bash
+
+# 输出文件名
+output="千千倾听txt.png"
+# 字体和样式配置
+font_path="SourceHanSansCN/SourceHanSansCN-Bold.otf"  # 使用你自己的字体路径
+font_size=280        # 字体大小
+text_color="white"  # 文字颜色
+text="千千倾听"  # 要显示的文字内容
+
+# 生成透明背景的文字图片
+convert -size 1400x400 \
+        xc:transparent \
+        -font "$font_path" \
+        -fill "$text_color" \
+        -pointsize "$font_size" \
+        -gravity center \
+        -annotate +0+0 "$text" "$output"
+
+
+output="desc.png"
+# 字体和样式配置
+font_path="SourceHanSansCN/SourceHanSansCN-Medium.otf"  # 使用你自己的字体路径
+font_size=100        # 字体大小
+text_color="white"  # 文字颜色
+text="无损音乐、播客订阅、网络电台\n有声小说、传统评书、一网打尽"  # 要显示的文字内容
+
+# 生成透明背景的文字图片
+convert -size 1600x500 \
+        xc:transparent \
+        -font "$font_path" \
+        -fill "$text_color" \
+        -pointsize "$font_size" \
+        -gravity center \
+        -annotate +0+0 "$text" "$output"
+
+
+output="slogan.png"
+# 字体和样式配置
+font_path="SourceHanSansCN/SourceHanSansCN-Bold.otf"  # 使用你自己的字体路径
+font_size=170        # 字体大小
+text_color="red"  # 文字颜色
+text="让你的6扬声器\n永不停息！"  # 要显示的文字内容
+
+# 生成透明背景的文字图片
+convert -size 1200x500 \
+        xc:transparent \
+        -font "$font_path" \
+        -fill "$text_color" \
+        -pointsize "$font_size" \
+        -gravity center \
+        -annotate +0+0 "$text" "$output"
+
+bg="bg1.png"
+convert "$bg" \
+        \( 千千倾听txt.png -resize 100% \) \
+        -gravity center -geometry -660-500 \
+        -composite "tmp1.png"
+
+convert "tmp1.png" \
+        \( desc.png -resize 100% \) \
+        -gravity center -geometry -600+0 \
+        -composite "tmp2.png"
+
+
+convert "tmp2.png" \
+        \( 6ysq.png -resize 50% \) \
+        -gravity center -geometry -660+500 \
+        -composite "tmp3.png"
+
+convert "tmp3.png" \
+        \( audiobooks.png -resize 100% \) \
+        -gravity center -geometry +800+50 \
+        -composite "front.png"
+
+rm "tmp1.png" "tmp2.png" "tmp3.png"
+
+
+output="dujia.png"
+# 字体和样式配置
+font_path="SourceHanSansCN/SourceHanSansCN-Medium.otf"  # 使用你自己的字体路径
+font_size=70        # 字体大小
+text_color="white"  # 文字颜色
+text="特色功能:\n-全拼、简拼搜歌，无需选字\n-真•桌面歌词、工作区置顶显示、三大主题\n-全局多功能快捷键\n     顺序切歌、随机切歌、F9一键盲操\n-简单而不简约,更多功能等你挖掘~"  # 要显示的文字内容
+
+# 生成透明背景的文字图片
+convert -size 1900x600 \
+        xc:transparent \
+        -font "$font_path" \
+        -fill "$text_color" \
+        -pointsize "$font_size" \
+        -gravity west \
+        -annotate +0+0 "$text" "$output"
+
+bg="bg1.png"
+convert "$bg" \
+        \( dujia.png -resize 100% \) \
+        -gravity center -geometry -300-0 \
+        -composite "tmp1.png"
+convert "tmp1.png" \
+        \( wusun.png -resize 100% \) \
+        -gravity center -geometry +800+50 \
+        -composite "tmp2.png"
+
+convert "tmp2.png" \
+        "$lrc_std" \
+        -gravity northwest -composite tmp3.png
+
+convert "tmp3.png" \
+        "$lrc_mini" \
+        -gravity southwest -composite tese.png
